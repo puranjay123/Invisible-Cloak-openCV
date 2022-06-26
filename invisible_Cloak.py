@@ -54,4 +54,4 @@ while(cap.isOpened()):  #Condition for this is when only the web cam is opened  
     if k==27:
         break
 cap.release()
-Gcv2.destroyAllWindows()
+cv2.destroyAllWindows()
